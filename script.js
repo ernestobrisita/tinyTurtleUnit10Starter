@@ -11,29 +11,32 @@ forward(50);
 right(90);
 forward(50);
 }
-function triangle (){
-forward(75)
+function triangle (size){
+forward(size)
 right(120)
-forward(75)
+forward(size)
 right(120)
-forward(75)
+forward(size)
 right(120)
 
 }
-triangle();
+triangle(50);
 
 
-function square (){
-forward(90)
+function square (size){
+forward(size)
 right(90)
-forward(90)
+forward(size)
 right(90)
-forward(90)
+forward(size)
 right(90)
-forward(90)
+forward(size)
+right(90)
+forward(size)
 
 }
-square();
+square(20);
+
 // Type your function call below
 //square();
 
